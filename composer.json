@@ -1,5 +1,5 @@
 {
-    "name": "rappasoft/laravel-authentication-log",
+    "name": "chapdel/auth",
     "description": "Log user authentication details and send new device notifications.",
     "keywords": [
         "rappasoft",
@@ -16,17 +16,9 @@
         }
     ],
     "require": {
-        "php": "^8.1",
-        "illuminate/contracts": "^10.0",
-        "spatie/laravel-package-tools": "^1.4.3"
-    },
-    "require-dev": {
-        "nunomaduro/collision": "^6.0",
-        "orchestra/testbench": "^7.0",
-        "pestphp/pest": "^1.21",
-        "pestphp/pest-plugin-laravel": "^1.2",
-        "spatie/laravel-ray": "^1.29",
-        "vimeo/psalm": "^4.20"
+        "php": "^8.2|^8.3",
+        "illuminate/contracts": "^10.0|^11.0",
+        "spatie/laravel-package-tools": "^1.14.0"
     },
     "autoload": {
         "psr-4": {
